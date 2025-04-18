@@ -7,7 +7,9 @@ const app = express()
 const PORT = 8080
 
 // middleware
-app.use(cors());
+app.use(cors({
+    origin: ["https://chat-app-client-psi-five.vercel.app"],
+}));
 
 const httpServer = http.createServer(app)
 const io = new Server(httpServer, {
