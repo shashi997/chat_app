@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Optional: Base body styling */
+body {
+    @apply bg-gray-100 font-sans antialiased;
+}
+
