@@ -7,7 +7,7 @@ import JoinScreen from "./components/JoinScreen";
 // But initialize inside useEffect to ensure it runs client-side
 let socketInstance = null;
 const SERVER_URL = "https://chat-app-server-ten-tau.vercel.app";  // Make server URL a constant
-
+// const SERVER_URL = "http://localhost:8080";
 
 function App() {
 
